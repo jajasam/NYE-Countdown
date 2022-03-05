@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Space+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400&family=Space+Mono&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-image: url("https://images.unsplash.com/photo-1514828980084-9462f7d03afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80");
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10vw;
+}
+
+.container div {
+    width: 200px;
+}
+
+.num {
+    font-size: 5rem;
+    font-weight: bold;
+}
